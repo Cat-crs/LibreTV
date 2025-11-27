@@ -46,18 +46,4 @@ jobs:
             exit 1
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          git checkout main
-          
-          # 尝试合并上游更改
-          echo "合并上游更改..."
-          if git merge upstream/main --no-edit --allow-unrelated-histories; then
-            echo "✅ 合并成功，推送更改到 fork..."
-            git push origin main
-            echo "🎉 同步完成！"
-          else
-            echo "❌ 检测到合并冲突！需要手动处理。"
-            git merge --abort
-            exit 1
-          fi
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
