@@ -2,10 +2,12 @@ const CUSTOMER_SITES = {
     qiqi: {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源',
+        adult: false,
     },
     jinying: {
         api: 'https://jyzyapi.com/provide/vod/from/jinyingyun/at/json',
         name: '金鹰资源',
+        adult: false,
     },
     senlin: {
         api: 'https://slapibf.com/api.php/provide/vod',
@@ -25,6 +27,7 @@ const CUSTOMER_SITES = {
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源',
+        adult: false,
     },
     aosika: {
         api: 'https://aosikazy.com/api.php/provide/vod',
@@ -34,30 +37,37 @@ const CUSTOMER_SITES = {
     maotai: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
         name: '茅台资源',
+        adult: false,
     },
     haohuayun: {
         api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
         name: '豪华云资源',
+        adult: false,
     },
     haohua: {
         api: 'https://hhzyapi.com/api.php/provide/vod/at/json',
         name: '豪华资源',
+        adult: false,
     },
     xinlang: {
         api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn',
         name: '新浪资源',
+        adult: false,
     },
     maoyan: {
         api: 'https://api.maoyanapi.top/api.php/provide/vod/at/json',
         name: '猫眼资源',
+        adult: false,
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod/at/json',
         name: '极速资源',
+        adult: false,
     },
     youzhi: {
         api: 'https://api.yzzy-api.com/inc/apijson.php',
         name: '优质资源',
+        adult: false,
     }
 };
 
