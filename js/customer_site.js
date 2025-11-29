@@ -3,25 +3,61 @@ const CUSTOMER_SITES = {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源',
     },
-    zy360: {
-        api: 'https://360zyzz.com/api.php/provide/vod',
-        name: '360资源',
+    jinying: {
+        api: 'https://jyzyapi.com/provide/vod/from/jinyingyun/at/json',
+        name: '金鹰资源',
     },
-    hongniu: {
-        api: 'https://www.hongniuzy2.com/api.php/provide/vod/at/josn',
-        name: '红牛资源',
+    senlin: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
+        adult: true,
     },
-    liangzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/at/json',
-        name: '量子资源',
+    yutu: {
+        api: 'https://apiyutu.com/api.php/provide/vod',
+        name: '玉兔资源',
+        adult: true,
     },
-    feifan: {
-        api: 'http://api.ffzyapi.com/api.php/provide/vod/at/json',
-        name: '非凡资源',
+    dadi: {
+        api: 'https://dadiapi.com/feifei',
+        name: '大地资源',
+        adult: true,
     },
-    suoni: {
-        api: 'https://suoniapi.com/api.php/provide/vod/?ac=list',
-        name: '索尼资源',
+    wujin: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: '无尽资源',
+    },
+    aosika: {
+        api: 'https://aosikazy.com/api.php/provide/vod',
+        name: '奥斯卡资源',
+        adult: true,
+    },
+    maotai: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
+        name: '茅台资源',
+    },
+    haohuayun: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json',
+        name: '豪华云资源',
+    },
+    haohua: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/at/json',
+        name: '豪华资源',
+    },
+    xinlang: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn',
+        name: '新浪资源',
+    },
+    maoyan: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod/at/json',
+        name: '猫眼资源',
+    },
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod/at/json',
+        name: '极速资源',
+    },
+    youzhi: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '优质资源',
     }
 };
 
